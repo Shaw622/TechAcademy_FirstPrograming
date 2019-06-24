@@ -1,0 +1,62 @@
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- 表の練習 -->
+        <table border="1"><!-- 表を囲う境界線の太さ -->
+        <thead>
+            <tr>
+            <th>#</th>
+            <th>名前</th>
+            <th>メールアドレス</th>
+            <th>電話番号</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th>1</th>
+            <td>煌木 太郎</td>
+            <td>taro.kirameki@example.com</td>
+            <td>09011112222</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>煌木 次郎</td>
+            <td>jiro.kirameki@example.com</td>
+            <td>09033334444</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>煌木 花子</td>
+            <td>hanako.kirameki@example.com</td>
+            <td>09055556666</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- フォームの練習 -->
+<!-- formは単にformを設置して送信ボタンを押しても動作しない。
+     formの動作にはなんらかのサーバサイドプログラミング言語（PHPやRuby）などの助けが必要 -->
+<form>
+    <label for="name">名前</label>
+    <input type="text" id="name">
+    <br>
+
+    <label for="email">メールアドレス</label>
+    <input type="email" id="email">
+    <br>
+
+    <label for="password">パスワード</label>
+    <input type="password" id="password">
+    <br>
+
+    <label for="confirm">確認パスワード</label>
+    <input type="password" id="confirm">
+    <br>
+
+    <input type="submit" value="登録する">
+</form>
+
+    </body>
+</html>
